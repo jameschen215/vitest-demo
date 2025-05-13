@@ -7,7 +7,7 @@ describe('List component', () => {
 	it('contains 5 animals', () => {
 		render(<List />);
 
-		screen.debug();
+		// screen.debug();
 		const listWrapper = screen.getByRole('list');
 		const listItems = screen.getAllByRole('listitem');
 
